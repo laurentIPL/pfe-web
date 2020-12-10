@@ -36,10 +36,10 @@ const ListQRCodes = ({ data }) => {
     return (
       <DataTable>
         <DataTable.Header>
-          <DataTable.Title style={styles.statistics}>Name</DataTable.Title>
-          <DataTable.Title style={styles.statistics}>QR Code</DataTable.Title>
+          <DataTable.Title style={styles.statistics}>Nom</DataTable.Title>
+          <DataTable.Title style={styles.statistics}>Code QR</DataTable.Title>
           <DataTable.Title numeric style={styles.statistics}>
-            nbr of scans
+            Nombre de scans
           </DataTable.Title>
         </DataTable.Header>
 
